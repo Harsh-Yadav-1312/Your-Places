@@ -7,7 +7,8 @@ This project was made to cover entire MERN technologies.
 In this project I have used multiple pages to simplify and increase user experience and user engagement.
 In this web application any user has to first authenticate and then they can see other ppl's places that they have added and they can view it on map.
 Also you can make your own profile with images and name and add Your places too that you have visited or love to visit.
-There are multiple things to do in this app like you can add places , edit them and also can delete them
+There are multiple things to do in this app like you can add places , edit them and also can delete them.
+In this web app ive used reusable react components to save time and also made a responsive design throughout whole app which provides simplicity to mobile devices as well
 
 This is a basic Home page
 ![image](https://github.com/Harsh-Yadav-1312/Your-Places/assets/119126769/f0f4394b-532e-4752-86c3-ca9b87e2b13a)
