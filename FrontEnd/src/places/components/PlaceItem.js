@@ -39,7 +39,7 @@ const PlaceItem = props => {
         let responseData;
         try{
             setIsLoading(true);
-            const response = await fetch(`http://localhost:5000/api/places/${props.id}`,
+            const response = await fetch(`https://your-places-796g.vercel.app/api/places/${props.id}`,
             {
                 method: 'DELETE',
                 body: null,
