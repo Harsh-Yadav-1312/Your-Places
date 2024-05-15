@@ -44,7 +44,7 @@ const UserPlaces = () => {
                 // });
                     // console.log(response);
                 // responseData = await response.json();
-                const response = await fetch(`http://localhost:5000/api/places/user/${userId}`);
+                const response = await fetch(`https://your-places-796g.vercel.app/api/places/user/${userId}`);
                 
                 responseData = await response.json();
                 console.log(responseData);
