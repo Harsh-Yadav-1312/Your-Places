@@ -42,7 +42,7 @@ const NewPlaces = () => {
             formData.append('address', formState.inputs.address.value);
             formData.append('creator', auth.userId);
             formData.append('image', formState.inputs.image.value);
-            const response = await fetch('http://localhost:5000/api/places', {
+            const response = await fetch('https://your-places-796g.vercel.app/api/places', {
                 method: 'POST',
                 headers: {Authorization: "Bearer " + auth.token},
                 body: formData
