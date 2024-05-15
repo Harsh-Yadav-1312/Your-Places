@@ -12,7 +12,8 @@ const HttpError = require('./models/http-error');
 const app = express();
 
 const password = encodeURIComponent("svxkJyuxyKDQ67V9");
-const url = `mongodb+srv://akramzishan007:${password}@cluster0.07h2bn4.mongodb.net/userplaces?retryWrites=true&w=majority`;
+// const url = `mongodb+srv://akramzishan007:${password}@cluster0.07h2bn4.mongodb.net/userplaces?retryWrites=true&w=majority`;
+const url = `mongodb+srv://harshdv1312:YourPlaces0804@cluster0.bkhdcqb.mongodb.net/userplaces?retryWrites=true&w=majority`;
 
 app.use(bodyParser.json());
 
