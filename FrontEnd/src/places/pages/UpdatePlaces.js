@@ -58,7 +58,7 @@ const UpdatePlaces = () => {
             let responseData;
             setIsLoading(true);
             try {
-                const response = await fetch(`http://localhost:5000/api/places/${placeId}`);
+                const response = await fetch(`https://your-places-796g.vercel.app/api/places/${placeId}`);
                 responseData = await response.json();
                 console.log(responseData.place);
                 if (!response.ok) {
@@ -99,7 +99,7 @@ const UpdatePlaces = () => {
         let responseData;
         try{
             setIsLoading(true);
-            const response = await fetch(`http://localhost:5000/api/places/${placeId}`,
+            const response = await fetch(`https://your-places-796g.vercel.app/api/places/${placeId}`,
             {
                 method: 'PATCH',
                 headers: {
